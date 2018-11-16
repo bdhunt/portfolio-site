@@ -1,0 +1,33 @@
+*{
+	color: #000 !important;
+}
+html, body{
+	background: #fff;
+}
+.container{
+	width: 95%;
+}
+#nav, .button, #footer{
+	display: none;
+}
+.logo{
+	color: #000;
+	font-size: 30px;
+}
+h1{
+	font-size: 38px;
+}
+h2, h3{
+	font-size: 30px;
+}
+.four.columns.image{
+	width: 95%;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+a:after{
+	content: " (" attr(href) ") ";
+}
+
+
